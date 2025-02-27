@@ -57,7 +57,7 @@ with st.form("user_inputs"):
     # Loan Amount
     LoanAmount = st.number_input("Loan Amount", 
                                   min_value=0, 
-                                  step=1000)
+                                  step=10)
     
     # Loan Amount Term
     Loan_Amount_Term = st.selectbox("Loan Amount Term (Months)", 
